@@ -1,0 +1,2 @@
+﻿timeout /t 5
+wmic process where "name like '%%java%%' and commandline like '%%[java]%%' " get processid > after_start_pids.txt

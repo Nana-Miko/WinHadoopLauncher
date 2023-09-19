@@ -1,0 +1,1 @@
+﻿wmic process where "name like '%%java%%' and commandline like '%%[java]%%' " get processid > before_start_pids.txt
